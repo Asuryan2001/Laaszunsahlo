@@ -1,0 +1,176 @@
+{
+    "model": {
+        "type": "minecraft:condition",
+        "property": "minecraft:using_item",
+        "on_false": {
+            "type":"minecraft:select",
+            "property": "minecraft:charge_type",
+            "fallback": {
+                "type": "minecraft:range_dispatch",
+                "property": "minecraft:damage",
+                "fallback": {
+                    "type": "minecraft:model",
+                    "model": "item/crossbow"
+                },
+                "entries": [
+                    {
+                        "threshold": 0.9,
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "item/crossbow/warning"
+                        }
+                    },
+                    {
+                        "threshold": 0.99,
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "item/crossbow/critical"
+                        }
+                    }
+        ]    
+            },
+            "cases": [
+                {
+                    "when": "rocket",
+                    "model": {
+                        "type": "minecraft:range_dispatch",
+                        "property": "minecraft:damage",
+                        "fallback": {
+                            "type": "minecraft:model",
+                            "model": "item/crossbow_firework"
+                        },
+                        "entries": [
+                            {
+                                "threshold": 0.9,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "item/crossbow_firework/warning"
+                                }
+                            },
+                            {
+                                "threshold": 0.99,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "item/crossbow_firework/critical"
+                                }
+                            }
+                        ]    
+        
+                    }
+                },
+                {
+                    "when": "arrow",
+                    "model": {
+                        "type": "minecraft:range_dispatch",
+                        "property": "minecraft:damage",
+                        "fallback": {
+                            "type": "minecraft:model",
+                            "model": "item/crossbow_arrow"
+                        },
+                        "entries": [
+                            {
+                                "threshold": 0.9,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "item/crossbow_arrow/warning"
+                                }
+                            },
+                            {
+                                "threshold": 0.99,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "item/crossbow_arrow/critical"
+                                }
+                            }
+                        ]    
+                    }
+                }
+            ]
+
+        },
+        "on_true": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:crossbow/pull",
+            "fallback": {
+                "type": "minecraft:range_dispatch",
+                "property": "minecraft:damage",
+                "fallback": {
+                    "type": "minecraft:model",
+                    "model": "item/crossbow_pulling_0"
+                },
+                "entries": [
+                    {
+                        "threshold": 0.9,
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "item/crossbow_pulling_0/warning"
+                        }
+                    },
+                    {
+                        "threshold": 0.99,
+                        "model": {
+                            "type": "minecraft:model",
+                            "model": "item/crossbow_pulling_0/critical"
+                        }
+                    }
+                ]
+            },
+            "entries": [
+                {
+                    "threshold": 0.58,
+                    "model": {
+                        "type": "minecraft:range_dispatch",
+                        "property":"minecraft:damage",
+                        "fallback": {
+                            "type": "minecraft:model",
+                            "model": "item/crossbow_pulling_1"
+                        },
+                        "entries": [
+                            {
+                                "threshold": 0.9,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "item/crossbow_pulling_1/warning"
+                                }
+                            },
+                            {
+                                "threshold": 0.99,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "item/crossbow_pulling_1/critical"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "threshold": 1.0,
+                    "model": {
+                        "type": "minecraft:range_dispatch",
+                        "property":"minecraft:damage",
+                        "fallback": {
+                            "type": "minecraft:model",
+                            "model": "item/crossbow_pulling_2"
+                        },
+                        "entries": [
+                            {
+                                "threshold": 0.9,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "item/crossbow_pulling_2/warning"
+                                }
+                            },
+                            {
+                                "threshold": 0.99,
+                                "model": {
+                                    "type": "minecraft:model",
+                                    "model": "item/crossbow_pulling_2/critical"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}
