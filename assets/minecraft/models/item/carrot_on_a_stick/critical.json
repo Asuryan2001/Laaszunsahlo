@@ -1,6 +1,0 @@
-{
-    "parent": "item/handheld_rod",
-    "textures": {
-        "layer0": "item/critical/carrot_on_a_stick"
-    }
-}

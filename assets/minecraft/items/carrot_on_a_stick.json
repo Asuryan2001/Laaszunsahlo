@@ -11,14 +11,14 @@
                 "threshold": 0.9,
                 "model": {
                     "type": "minecraft:model",
-                    "model": "item/carrot_on_a_stick/warning"
+                    "model": "item/carrot_on_a_stick_warning"
                 }
             },
             {
                 "threshold": 0.99,
                 "model": {
                     "type": "minecraft:model",
-                    "model": "item/carrot_on_a_stick/critical"
+                    "model": "item/carrot_on_a_stick_critical"
                 }
             }
         ]

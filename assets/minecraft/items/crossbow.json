@@ -17,14 +17,14 @@
                         "threshold": 0.9,
                         "model": {
                             "type": "minecraft:model",
-                            "model": "item/crossbow/warning"
+                            "model": "item/crossbow_warning"
                         }
                     },
                     {
                         "threshold": 0.99,
                         "model": {
                             "type": "minecraft:model",
-                            "model": "item/crossbow/critical"
+                            "model": "item/crossbow_critical"
                         }
                     }
         ]    
@@ -44,14 +44,14 @@
                                 "threshold": 0.9,
                                 "model": {
                                     "type": "minecraft:model",
-                                    "model": "item/crossbow_firework/warning"
+                                    "model": "item/crossbow_firework_warning"
                                 }
                             },
                             {
                                 "threshold": 0.99,
                                 "model": {
                                     "type": "minecraft:model",
-                                    "model": "item/crossbow_firework/critical"
+                                    "model": "item/crossbow_firework_critical"
                                 }
                             }
                         ]    
@@ -72,14 +72,14 @@
                                 "threshold": 0.9,
                                 "model": {
                                     "type": "minecraft:model",
-                                    "model": "item/crossbow_arrow/warning"
+                                    "model": "item/crossbow_arrow_warning"
                                 }
                             },
                             {
                                 "threshold": 0.99,
                                 "model": {
                                     "type": "minecraft:model",
-                                    "model": "item/crossbow_arrow/critical"
+                                    "model": "item/crossbow_arrow_critical"
                                 }
                             }
                         ]    
@@ -103,14 +103,14 @@
                         "threshold": 0.9,
                         "model": {
                             "type": "minecraft:model",
-                            "model": "item/crossbow_pulling_0/warning"
+                            "model": "item/crossbow_pulling_0_warning"
                         }
                     },
                     {
                         "threshold": 0.99,
                         "model": {
                             "type": "minecraft:model",
-                            "model": "item/crossbow_pulling_0/critical"
+                            "model": "item/crossbow_pulling_0_critical"
                         }
                     }
                 ]
@@ -130,14 +130,14 @@
                                 "threshold": 0.9,
                                 "model": {
                                     "type": "minecraft:model",
-                                    "model": "item/crossbow_pulling_1/warning"
+                                    "model": "item/crossbow_pulling_1_warning"
                                 }
                             },
                             {
                                 "threshold": 0.99,
                                 "model": {
                                     "type": "minecraft:model",
-                                    "model": "item/crossbow_pulling_1/critical"
+                                    "model": "item/crossbow_pulling_1_critical"
                                 }
                             }
                         ]
@@ -157,14 +157,14 @@
                                 "threshold": 0.9,
                                 "model": {
                                     "type": "minecraft:model",
-                                    "model": "item/crossbow_pulling_2/warning"
+                                    "model": "item/crossbow_pulling_2_warning"
                                 }
                             },
                             {
                                 "threshold": 0.99,
                                 "model": {
                                     "type": "minecraft:model",
-                                    "model": "item/crossbow_pulling_2/critical"
+                                    "model": "item/crossbow_pulling_2_critical"
                                 }
                             }
                         ]
