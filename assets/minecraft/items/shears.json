@@ -4,21 +4,21 @@
         "property": "minecraft:damage",
         "fallback": {
             "type": "minecraft:model",
-            "model": "item/shears"
+            "model": "minecraft:item/shears"
         },
         "entries": [
             {
                 "threshold": 0.9,
                 "model": {
                     "type": "minecraft:model",
-                    "model": "item/shears_warning"
+                    "model": "laaszunsahlo:item/shears_warning"
                 }
             },
             {
                 "threshold": 0.99,
                 "model": {
                     "type": "minecraft:model",
-                    "model": "item/shears_critical"
+                    "model": "laaszunsahlo:item/shears_critical"
                 }
             }
         ]

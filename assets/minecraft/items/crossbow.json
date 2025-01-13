@@ -10,21 +10,21 @@
                 "property": "minecraft:damage",
                 "fallback": {
                     "type": "minecraft:model",
-                    "model": "item/crossbow"
+                    "model": "minecraft:item/crossbow"
                 },
                 "entries": [
                     {
                         "threshold": 0.9,
                         "model": {
                             "type": "minecraft:model",
-                            "model": "item/crossbow_warning"
+                            "model": "laaszunsahlo:item/crossbow_warning"
                         }
                     },
                     {
                         "threshold": 0.99,
                         "model": {
                             "type": "minecraft:model",
-                            "model": "item/crossbow_critical"
+                            "model": "laaszunsahlo:item/crossbow_critical"
                         }
                     }
         ]    
@@ -37,21 +37,21 @@
                         "property": "minecraft:damage",
                         "fallback": {
                             "type": "minecraft:model",
-                            "model": "item/crossbow_firework"
+                            "model": "minecraft:item/crossbow_firework"
                         },
                         "entries": [
                             {
                                 "threshold": 0.9,
                                 "model": {
                                     "type": "minecraft:model",
-                                    "model": "item/crossbow_firework_warning"
+                                    "model": "laaszunsahlo:item/crossbow_firework_warning"
                                 }
                             },
                             {
                                 "threshold": 0.99,
                                 "model": {
                                     "type": "minecraft:model",
-                                    "model": "item/crossbow_firework_critical"
+                                    "model": "laaszunsahlo:item/crossbow_firework_critical"
                                 }
                             }
                         ]    
@@ -65,21 +65,21 @@
                         "property": "minecraft:damage",
                         "fallback": {
                             "type": "minecraft:model",
-                            "model": "item/crossbow_arrow"
+                            "model": "minecraft:item/crossbow_arrow"
                         },
                         "entries": [
                             {
                                 "threshold": 0.9,
                                 "model": {
                                     "type": "minecraft:model",
-                                    "model": "item/crossbow_arrow_warning"
+                                    "model": "laaszunsahlo:item/crossbow_arrow_warning"
                                 }
                             },
                             {
                                 "threshold": 0.99,
                                 "model": {
                                     "type": "minecraft:model",
-                                    "model": "item/crossbow_arrow_critical"
+                                    "model": "laaszunsahlo:item/crossbow_arrow_critical"
                                 }
                             }
                         ]    
@@ -96,21 +96,21 @@
                 "property": "minecraft:damage",
                 "fallback": {
                     "type": "minecraft:model",
-                    "model": "item/crossbow_pulling_0"
+                    "model": "minecraft:item/crossbow_pulling_0"
                 },
                 "entries": [
                     {
                         "threshold": 0.9,
                         "model": {
                             "type": "minecraft:model",
-                            "model": "item/crossbow_pulling_0_warning"
+                            "model": "laaszunsahlo:item/crossbow_pulling_0_warning"
                         }
                     },
                     {
                         "threshold": 0.99,
                         "model": {
                             "type": "minecraft:model",
-                            "model": "item/crossbow_pulling_0_critical"
+                            "model": "laaszunsahlo:item/crossbow_pulling_0_critical"
                         }
                     }
                 ]
@@ -123,21 +123,21 @@
                         "property":"minecraft:damage",
                         "fallback": {
                             "type": "minecraft:model",
-                            "model": "item/crossbow_pulling_1"
+                            "model": "minecraft:item/crossbow_pulling_1"
                         },
                         "entries": [
                             {
                                 "threshold": 0.9,
                                 "model": {
                                     "type": "minecraft:model",
-                                    "model": "item/crossbow_pulling_1_warning"
+                                    "model": "laaszunsahlo:item/crossbow_pulling_1_warning"
                                 }
                             },
                             {
                                 "threshold": 0.99,
                                 "model": {
                                     "type": "minecraft:model",
-                                    "model": "item/crossbow_pulling_1_critical"
+                                    "model": "laaszunsahlo:item/crossbow_pulling_1_critical"
                                 }
                             }
                         ]
@@ -150,21 +150,21 @@
                         "property":"minecraft:damage",
                         "fallback": {
                             "type": "minecraft:model",
-                            "model": "item/crossbow_pulling_2"
+                            "model": "minecraft:item/crossbow_pulling_2"
                         },
                         "entries": [
                             {
                                 "threshold": 0.9,
                                 "model": {
                                     "type": "minecraft:model",
-                                    "model": "item/crossbow_pulling_2_warning"
+                                    "model": "laaszunsahlo:item/crossbow_pulling_2_warning"
                                 }
                             },
                             {
                                 "threshold": 0.99,
                                 "model": {
                                     "type": "minecraft:model",
-                                    "model": "item/crossbow_pulling_2_critical"
+                                    "model": "laaszunsahlo:item/crossbow_pulling_2_critical"
                                 }
                             }
                         ]

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "laaszunsahlo:item/shears_warning"
+  }
+}

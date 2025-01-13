@@ -4,21 +4,21 @@
         "property": "minecraft:damage",
         "fallback": {
             "type": "minecraft:model",
-            "model": "item/iron_hoe"
+            "model": "minecraft:item/iron_hoe"
         },
         "entries": [
             {
                 "threshold": 0.9,
                 "model": {
                     "type": "minecraft:model",
-                    "model": "item/iron_hoe_warning"
+                    "model": "laaszunsahlo:item/iron_hoe_warning"
                 }
             },
             {
                 "threshold": 0.99,
                 "model": {
                     "type": "minecraft:model",
-                    "model": "item/hoe_critical"
+                    "model": "laaszunsahlo:item/hoe_critical"
                 }
             }
         ]

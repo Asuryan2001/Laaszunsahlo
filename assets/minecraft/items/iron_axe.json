@@ -4,21 +4,21 @@
         "property": "minecraft:damage",
         "fallback": {
             "type": "minecraft:model",
-            "model": "item/iron_axe"
+            "model": "minecraft:item/iron_axe"
         },
         "entries": [
             {
                 "threshold": 0.9,
                 "model": {
                     "type": "minecraft:model",
-                    "model": "item/iron_axe_warning"
+                    "model": "laaszunsahlo:item/iron_axe_warning"
                 }
             },
             {
                 "threshold": 0.99,
                 "model": {
                     "type": "minecraft:model",
-                    "model": "item/axe_critical"
+                    "model": "laaszunsahlo:item/axe_critical"
                 }
             }
         ]

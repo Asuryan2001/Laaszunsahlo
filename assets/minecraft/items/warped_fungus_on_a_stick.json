@@ -4,21 +4,21 @@
         "property": "minecraft:damage",
         "fallback": {
             "type": "minecraft:model",
-            "model": "item/warped_fungus_on_a_stick"
+            "model": "minecraft:item/warped_fungus_on_a_stick"
         },
         "entries": [
             {
                 "threshold": 0.9,
                 "model": {
                     "type": "minecraft:model",
-                    "model": "item/warped_fungus_on_a_stick_warning"
+                    "model": "laaszunsahlo:item/warped_fungus_on_a_stick_warning"
                 }
             },
             {
                 "threshold": 0.99,
                 "model": {
                     "type": "minecraft:model",
-                    "model": "item/warped_fungus_on_a_stick_critical"
+                    "model": "laaszunsahlo:item/warped_fungus_on_a_stick_critical"
                 }
             }
         ]

@@ -4,21 +4,21 @@
         "property": "minecraft:damage",
         "fallback": {
             "type": "minecraft:model",
-            "model": "item/netherite_shovel"
+            "model": "minecraft:item/netherite_shovel"
         },
         "entries": [
             {
                 "threshold": 0.9,
                 "model": {
                     "type": "minecraft:model",
-                    "model": "item/netherite_shovel_warning"
+                    "model": "laaszunsahlo:item/netherite_shovel_warning"
                 }
             },
             {
                 "threshold": 0.99,
                 "model": {
                     "type": "minecraft:model",
-                    "model": "item/shovel_critical"
+                    "model": "laaszunsahlo:item/shovel_critical"
                 }
             }
         ]

@@ -4,21 +4,21 @@
         "property": "minecraft:damage",
         "fallback": {
             "type": "minecraft:model",
-            "model": "item/netherite_sword"
+            "model": "minecraft:item/netherite_sword"
         },
         "entries": [
             {
                 "threshold": 0.9,
                 "model": {
                     "type": "minecraft:model",
-                    "model": "item/netherite_sword_warning"
+                    "model": "laaszunsahlo:item/netherite_sword_warning"
                 }
             },
             {
                 "threshold": 0.99,
                 "model": {
                     "type": "minecraft:model",
-                    "model": "item/sword_critical"
+                    "model": "laaszunsahlo:item/sword_critical"
                 }
             }
         ]

@@ -4,21 +4,21 @@
         "property": "minecraft:damage",
         "fallback": {
             "type": "minecraft:model",
-            "model": "item/netherite_pickaxe"
+            "model": "minecraft:item/netherite_pickaxe"
         },
         "entries": [
             {
                 "threshold": 0.9,
                 "model": {
                     "type": "minecraft:model",
-                    "model": "item/netherite_pickaxe_warning"
+                    "model": "laaszunsahlo:item/netherite_pickaxe_warning"
                 }
             },
             {
                 "threshold": 0.99,
                 "model": {
                     "type": "minecraft:model",
-                    "model": "item/pickaxe_critical"
+                    "model": "laaszunsahlo:item/pickaxe_critical"
                 }
             }
         ]

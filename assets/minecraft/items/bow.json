@@ -13,14 +13,14 @@
                     "threshold": 0.9,
                     "model": {
                         "type": "minecraft:model",
-                        "model": "minecraft:item/bow_warning"            
+                        "model": "laaszunsahlo:item/bow_warning"            
                     }
                 },
                 {
                     "threshold": 0.99,
                     "model": {
                         "type": "minecraft:model",
-                        "model": "minecraft:item/bow_critical"            
+                        "model": "laaszunsahlo:item/bow_critical"            
                     }
                 }
             ]
@@ -41,14 +41,14 @@
                                 "threshold": 0.9,
                                 "model": {
                                     "type":"minecraft:model",
-                                    "model":"minecraft:item/bow_pulling_1_warning"
+                                    "model":"laaszunsahlo:item/bow_pulling_1_warning"
                                 }
                             },
                             {
                                 "threshold": 0.99,
                                 "model": {
                                     "type":"minecraft:model",
-                                    "model":"minecraft:item/bow_pulling_1_critical"
+                                    "model":"laaszunsahlo:item/bow_pulling_1_critical"
                                 }
                             }
                         ]
@@ -68,14 +68,14 @@
                                 "threshold": 0.9,
                                 "model": {
                                     "type": "minecraft:model",
-                                    "model": "minecraft:item/bow_pulling_2_warning"            
+                                    "model": "laaszunsahlo:item/bow_pulling_2_warning"            
                                 }
                             },
                             {
                                 "threshold": 0.99,
                                 "model": {
                                     "type": "minecraft:model",
-                                    "model": "minecraft:item/bow_pulling_2_critical"            
+                                    "model": "laaszunsahlo:item/bow_pulling_2_critical"            
                                 }
                             }
                         ]
@@ -95,14 +95,14 @@
                         "threshold": 0.9,
                         "model": {
                             "type": "minecraft:model",
-                            "model": "minecraft:item/bow_pulling_0_warning"
+                            "model": "laaszunsahlo:item/bow_pulling_0_warning"
                         }
                     },
                     {
                         "threshold": 0.99,
                         "model": {
                             "type": "minecraft:model",
-                            "model": "minecraft:item/bow_pulling_0_critical"
+                            "model": "laaszunsahlo:item/bow_pulling_0_critical"
                         }
                     }
                 ]

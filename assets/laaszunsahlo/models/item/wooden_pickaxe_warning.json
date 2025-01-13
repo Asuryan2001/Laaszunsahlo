@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "laaszunsahlo:item/wooden_pickaxe_warning"
+  }
+}
