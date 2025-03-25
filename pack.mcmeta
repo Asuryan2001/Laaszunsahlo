@@ -1,10 +1,10 @@
 {
-    "pack": {
-        "supported_formats": {
-            "min_inclusive": 46,
-            "max_inclusive": 55
-          },      
-        "pack_format": 55,
-        "description": "1.21.4\n§1Asuryan"
-    }
+	"pack": {
+		"supported_formats": {
+			"min_inclusive": 46,
+			"max_inclusive": 55
+		},
+		"pack_format": 55,
+		"description": "1.21.4\n§1Asuryan"
+	}
 }
