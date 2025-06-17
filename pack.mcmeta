@@ -2,9 +2,9 @@
 	"pack": {
 		"supported_formats": {
 			"min_inclusive": 46,
-			"max_inclusive": 55
+			"max_inclusive": 63
 		},
-		"pack_format": 55,
-		"description": "1.21.5\n§1Asuryan"
+		"pack_format": 63,
+		"description": "1.21.6\n§1Asuryan"
 	}
 }
