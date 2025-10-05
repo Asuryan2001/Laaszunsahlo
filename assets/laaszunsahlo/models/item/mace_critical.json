@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld_mace",
+  "textures": {
+    "layer0": "laaszunsahlo:item/mace_critical"
+  }
+}
