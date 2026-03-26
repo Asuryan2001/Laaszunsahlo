@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:laaszunsahlo/diamond_spear_warning"
+  }
+}
