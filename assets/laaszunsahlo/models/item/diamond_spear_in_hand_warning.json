@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/spear_in_hand",
   "textures": {
-    "layer0": "minecraft:laaszunsahlo/diamond_spear_in_hand_warning"
+    "layer0": "laaszunsahlo:item/diamond_spear_in_hand_warning"
   }
 }
