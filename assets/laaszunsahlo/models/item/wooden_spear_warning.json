@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "minecraft:laaszunsahlo/wooden_spear_warning"
+    "layer0": "laaszunsahlo:item/wooden_spear_warning"
   }
 }
