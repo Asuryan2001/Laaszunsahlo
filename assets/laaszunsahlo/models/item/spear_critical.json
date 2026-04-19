@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "minecraft:laaszunsahlo/spear_critical"
+    "layer0": "laaszunsahlo:item/spear_critical"
   }
 }
